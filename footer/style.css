@@ -1,0 +1,88 @@
+.hr {
+    padding: 42px 100px;
+}
+
+.handels_gyan {
+    overflow: hidden;
+    padding: 42px 100px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.gyan h5 {
+    font-size: 18px;
+    word-spacing: 2px;
+    font-weight: 200;
+}
+
+.handels a {
+    padding: 10px;
+}
+
+.ye {
+    width: 35px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1137px) {
+    .hr {
+        padding: 24px 50px;
+    }
+
+    .handels_gyan {
+        overflow: hidden;
+        padding: 24px 50px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .gyan h5 {
+        font-size: 18px;
+        word-spacing: 2px;
+        font-weight: 200;
+    }
+
+    .handels a {
+        padding: 10px;
+    }
+
+    .ye {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hr {
+        padding: 20px;
+    }
+
+    .handels_gyan {
+        overflow: hidden;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    .gyan h5 {
+        font-size: 18px;
+        word-spacing: 2px;
+        font-weight: 200;
+    }
+
+    .handels a {
+        padding: 10px;
+    }
+
+    .ye {
+        width: 25px;
+    }
+
+    .hatjabhai {
+        margin: 0px 10px;
+    }
+}
